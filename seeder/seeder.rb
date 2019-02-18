@@ -18,7 +18,7 @@ pages << {
     page_type: 'part_number_search',
     method: 'GET',
     headers:headers,
-    url: "https://www.mercadopublico.cl/Portal/Modules/Site/Busquedas/GrillaExcel.aspx?qs=VTMR5K17FhQ5kF+vvYuTJw==",
+    url: "https://www.mercadopublico.cl/Portal/Modules/Site/Busquedas/ResultadoBusqueda.aspx?qs=3",
     vars: {
         'page_type' => 'init_page'
     }
