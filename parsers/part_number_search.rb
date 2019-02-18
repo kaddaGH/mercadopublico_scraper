@@ -23,7 +23,7 @@ if 1==1
   matches = content.scan(/type="hidden" name="(.+?)" id=".*?" value="(.*?)"/)
 
   matches.each_with_index do |result, i|
-
+    puts(result[0])
     post_params+=CGI.escape(result[0])+"="+CGI.escape(result[1])+"&"
 
   end
@@ -31,8 +31,8 @@ if 1==1
   pages << {
       page_type: 'part_number_search',
       method: 'POST',
-      body: post_params,
-      url: "https://www.mercadopublico.cl/Portal/Modules/Site/Busquedas/ResultadoBusqueda.aspx?qs=3",
+      #body: post_params,
+      #url: "https://www.mercadopublico.cl/Portal/Modules/Site/Busquedas/ResultadoBusqueda.aspx?qs=3",
       headers: headers,
       vars: {
           'page_type' => 'pagination'
