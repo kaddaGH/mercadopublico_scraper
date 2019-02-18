@@ -32,7 +32,7 @@ if page_type == 'init_page'
       page_type: 'part_number_search',
       method: 'POST',
       body: post_params,
-      url: "https://www.mercadopublico.cl/Portal/Modules/Site/Busquedas/GrillaExcel.aspx?qs=VTMR5K17FhQ5kF+vvYuTJw==",
+      url: "https://www.mercadopublico.cl/Portal/Modules/Site/Busquedas/ResultadoBusqueda.aspx?qs=3",
       headers: headers,
       vars: {
           'page_type' => 'pagination'
