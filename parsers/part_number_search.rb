@@ -17,14 +17,14 @@ headers = {
 }
 page_type = page['vars']['page_type']
 
-if page_type == 'init_page'
+if 1==1
 
-  post_params = {}
+  post_params = ""
   matches = content.scan(/type="hidden" name="(.+?)" id=".*?" value="(.*?)"/)
 
   matches.each_with_index do |result, i|
 
-    post_params[CGI.escape(result[0])] = CGI.escape(result[1])
+    post_params+=CGI.escape(result[0])+"="+CGI.escape(result[1])+"&"
 
   end
 
