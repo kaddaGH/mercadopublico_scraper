@@ -25,7 +25,7 @@ post_params += "&hdnOrganismo=&hdnOrden="
 pages << {
     page_type: 'part_number_search',
     method: 'POST',
-    url: "https://www.mercadopublico.cl/Portal/Modules/Site/Busquedas/ResultadoBusqueda.aspx?qs=3&_=#{Time.now.to_i}",
+    url: "https://www.mercadopublico.cl/Portal/Modules/Site/Busquedas/ResultadoBusqueda.aspx?qs=3&t=4",
     headers: headers,
     body: post_params,
 
