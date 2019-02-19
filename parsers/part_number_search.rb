@@ -7,7 +7,6 @@ headers = {
     "Accept-Encoding" => "gzip, deflate, br",
     "Referer" => "https://www.mercadopublico.cl/Portal/Modules/Site/Busquedas/ResultadoBusqueda.aspx?qs=3",
     "Content-Type" => "application/x-www-form-urlencoded",
-    "Content-Length" => "16195",
     "DNT" => "1",
     "Connection" => "keep-alive",
     "Cookie" => "ASP.NET_SessionId=34yqtgdqr4c5nu5elhh4ppko; rxVisitor=1550511469152QGHB60OGQD9JJJ91VRJVAS0VPDG02P41; dtPC=1$117717434_200h-vBEMMMHMBGOHANMPNCLKEGFOMNFENBHDI; rxvt=1550539058703|1550535722064; dtSa=true%7CC%7C-1%7C2%7C-%7C1550537245979%7C117717434_200%7Chttps%3A%2F%2Fwww.mercadopublico.cl%2FPortal%2FModules%2FSite%2FBusquedas%2FResultadoBusqueda.aspx%3Fqs%3D3%7CMercado%20Publico%7C1550517721565%7C; dtLatC=2; dtCookie=1$019DA4964D749EB82F9117DDA158476C|www.mercadopublico.cl|1",
@@ -46,7 +45,6 @@ if 1 == 1
       method: 'POST',
       url: "https://www.mercadopublico.cl/Portal/Modules/Site/Busquedas/ResultadoBusqueda.aspx?qs=3",
       headers: headers,
-      fetch_type: "browser",
       body: post_params,
       vars: {
           'page_type' => 'pagination'
