@@ -27,6 +27,7 @@ pages << {
     method: 'POST',
     url: "https://www.mercadopublico.cl/Portal/Modules/Site/Busquedas/ResultadoBusqueda.aspx?qs=3&t=4",
     headers: headers,
+    fetch_type:"fullbrowser",
     body: post_params,
 
 }
